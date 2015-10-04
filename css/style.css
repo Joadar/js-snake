@@ -1,0 +1,17 @@
+body { background:#000; position:relative; max-width:100%; max-height:100%; margin: 0; }
+.infos, .results { background: rgba(255,255,255,0.7); padding: 10px; margin: 0 auto; width: 420px; border-radius: 30px; text-align: center; top: 40%; position: absolute; left: 35%; z-index:5; }
+.results { display:none; }
+.pantheon { width: 300px; background: rgba(255,255,255,0.7); padding: 20px; border-radius: 40px; position: absolute; top: 30px; left: 30px; display: none; z-index: 5; }
+.pantheon h1 { text-align: center; }
+#start, #restart { background: #2B7C3B; color: #fff; border: 0; padding: 10px; font-size: 1.5em; border-radius: 15px; cursor:pointer; }
+#snake { background:#2B7C3B; position:absolute; border-radius:50%; }
+.more { border-radius:50%; position:absolute; background: #fff; }
+.apple { background:red; border-radius:50%; animation: blink 1s steps(5, start) infinite; -webkit-animation: blink 1s steps(5, start) infinite; }
+.show-classement { display: block; }
+.bonusmalus { background:blue; border-radius:50%; }
+@keyframes blink {
+  to { visibility: hidden; }
+}
+@-webkit-keyframes blink {
+  to { visibility: hidden; }
+}

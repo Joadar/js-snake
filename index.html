@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Snake</title>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="infos">
+		<h1>Informations</h1>
+		<p>Utiliser les fléches ou "z", "q", "s", "d" pour vous déplacer</p>
+		<button id="start" autofocus>Commencer !</button>
+		<a class="show-classement" href="#">Voir le classement</a>
+	</div>
+
+	<div class="results">
+		<h1>Game over</h1>
+		<p>Vous avez croqué <strong></strong> pommes !</p>
+		<p><input type="text" name="name" class="name" placeholder="Entrez votre pseudo"> <button id="valid-pseudo">Ok</button></p>
+		<button id="restart" autofocus>Recommencer ?</button>
+		<a class="show-classement" href="#">Voir le classement</a>
+	</div>
+
+	<div class="pantheon">
+		<a id="close-pantheon" href="#">Fermer le classement</a>
+		<h1>Les 7 meilleurs</h1>
+	</div>
+	<div id="snake"></div>
+	<div class="next"></div>
+</body>
+</html>
